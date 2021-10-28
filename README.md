@@ -1,6 +1,7 @@
 # Python Function to manage users via SCIM
 
 ![alt text](screenshots/screenshot2.png)
+
 This script helps you to manage your v2 users. You can add and delete users or groups, add users to groups and more. You can only create one user or group at a time as the SCIM API only allows one action per call. When a user or a group details are entered in the console, a JSON file in `utils` is updated with the details provided and a call to the API is made.
 
 Please note that using this script to manage your v2 users in New Relic will disable you from managing them in the New Relic UI. 
